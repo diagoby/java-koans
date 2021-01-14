@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <packages>
+    <package pkg="custom" name="Custom">
+        <suite class="AboutStringPool"/>
+    </package>
     <package pkg="beginner" name="Novice">
         <suite class="AboutKoans">
         <koan name="findAboutKoansFile" displayIncompleteKoanException="false" />
