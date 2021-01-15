@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <packages>
     <package pkg="custom" name="Custom">
+        <suite class="AboutBitwiseTricks"/>
         <suite class="AboutStringPool"/>
+        <suite class="AboutReflection"/>
     </package>
     <package pkg="beginner" name="Novice">
         <suite class="AboutKoans">
