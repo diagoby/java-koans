@@ -19,4 +19,13 @@ public class AboutStringPool {
         // Modify `strInstance` to be the same as `str`
         assertSame(str, strInstance);
     }
+
+    @Koan
+    public void sameLiterals() {
+        final String str = "Ratamahatta!!!";
+        final String strConcated = ("Ratama" + "hatta!!!").intern();
+
+        // Modify `strInstance` to be the same as `str`
+        assertEquals(str == strConcated, __);
+    }
 }
