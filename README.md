@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/matyb/java-koans.png?branch=master)](https://travis-ci.org/matyb/java-koans)
 
+Custom Koans for OOP labs are located in the folder _koans/src/custom_
+
 Running Instructions:
 =====================
 * Download and unarchive the contents of the most recent java-koans in development from:
